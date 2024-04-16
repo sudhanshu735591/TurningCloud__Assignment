@@ -1,0 +1,22 @@
+.image{
+    background-image: url("https://img.freepik.com/free-photo/isolated-black-t-shirt-model-front-view_125540-1073.jpg");
+    width: 216px;
+    height: 181px;
+    background-size: cover; 
+    background-color: #E3E4E7
+    ;
+}
+
+.bb{
+    border: solid #C7D3DF;
+}
+
+
+.bgColor{
+    border: 2px solid #FC9D03    ;
+}
+
+.backcolor{
+    border: 1px solid #FC9D03;
+
+}
