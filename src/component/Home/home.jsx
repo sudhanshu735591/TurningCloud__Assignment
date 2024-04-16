@@ -12,7 +12,7 @@ function Home() {
       </div>
 
 
-      <div className="flex bg-[aliceblue] mt-4">
+      <div className="flex bg-[aliceblue] mt-4 w-fit">
         <div className="sidebar w-[55px]">
           <SideBar/>
         </div>
