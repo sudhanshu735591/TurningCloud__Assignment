@@ -109,14 +109,12 @@ function Header() {
                 <div>/</div>
 
                 <div className="flex gap-4 border items-center pl-2 pr-2 rounded-lg">
-                    <div className="">Sales order</div>
-
-                    <div>
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4.4278 6.64528L8.85553 11.073L13.2833 6.64528" stroke="#4B5563" stroke-width="1.29142" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </div>
-
+                    <select>
+                        <option value="">Sales order</option>
+                        <option value="">Sales order</option>
+                        <option value="">Sales order</option>
+                        <option value="">Sales order</option>
+                    </select>
                 </div>
 
 
