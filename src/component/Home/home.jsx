@@ -85,7 +85,6 @@ function Home() {
                   </svg>
                 </div>
 
-                {/* <div className="text-[#888A8E] text-sm">Scan Product By...</div> */}
                 <input className="text-[#888A8E] text-sm" type="text" placeholder="Scan Product By..."/>
 
 
@@ -93,7 +92,13 @@ function Home() {
 
               <div className="bg-[#E7E8E8] p-2 flex">
                 <div className="flex items-center">
-                  <div className="text-[10px] font-bold">Design No</div>
+                  <select className="text-[10px] font-bold bg-[#E7E8E8]">
+                    <option value="">Design No</option>
+                    <option value="">Design No</option>
+                    <option value="">Design No</option>
+                    <option value="">Design No</option>
+                    <option value="">Design No</option>
+                  </select>
 
                   <div>
                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
