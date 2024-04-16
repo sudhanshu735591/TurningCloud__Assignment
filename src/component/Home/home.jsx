@@ -55,12 +55,15 @@ function Home() {
 
  
               <div className="remark flex gap-2 items-center">
-                <div className="border p-1 text-[#7E8084]">Add Remarks</div>
+                <input className="border p-1 text-[#7E8084]" type="text" name="" id="" placeholder="Add Remarks"/>
 
-                <div className="border p-1 text-[#7E8084]">
-                  Show by: 
-                  <span className="text-black font-bold ml-3"> Sizes</span>
+                <div className="border p-1 text-[#7E8084] flex">
+                 
+                  <input className="w-[100px]" type="text" placeholder=" Show by: "/>
+
+                  <span className="text-black font-bold "> Sizes</span>
                 </div>
+
 
 
                 <div className="border p-1 text-xl">+</div>
@@ -82,7 +85,9 @@ function Home() {
                   </svg>
                 </div>
 
-                <div className="text-[#888A8E] text-sm">Scan Product By...</div>
+                {/* <div className="text-[#888A8E] text-sm">Scan Product By...</div> */}
+                <input className="text-[#888A8E] text-sm" type="text" placeholder="Scan Product By..."/>
+
 
               </div>
 
